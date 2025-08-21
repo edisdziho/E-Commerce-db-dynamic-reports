@@ -73,6 +73,7 @@ GROUP BY
     k.Ime, k.Prezime, k.Email, n.NarudzbaID, n.DatumNarudzbe, n.Status
 ORDER BY 
     k.Prezime, k.Ime, n.DatumNarudzbe;
+```sql
 
 ## Best-selling products report
 
@@ -118,6 +119,7 @@ ORDER BY
         WHEN @RasponProdaje IS NULL OR @RasponProdaje = 'Max' THEN UkupnaProdajaBAM 
         ELSE NULL 
     END DESC;
+```sql
 
 ## Products list and product details report
 
@@ -169,6 +171,7 @@ WHERE
 GROUP BY p.ProizvodID, p.Naziv, p.Cijena
 ORDER BY 
     UkupnoProdanoKomada DESC;
+```sql
 
 
 ## Sales trend report (monthly)
@@ -206,3 +209,4 @@ JOIN VrsteProizvoda VP ON VP.VrstaProizvodaID = PR.VrstaProizvodaID
 WHERE (@VrstaProizvoda = 'Svi' OR VP.Naziv = @VrstaProizvoda)
 GROUP BY FORMAT(P.DatumPlacanja, 'yyyy-MM'), VP.Naziv
 ORDER BY Mjesec, VrstaProizvoda;
+```sql
