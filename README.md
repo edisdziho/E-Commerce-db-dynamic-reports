@@ -86,3 +86,5 @@ Reports provide:
 - Improved customer satisfaction  
 
 ---
+
+> ⚡ **This work was completed by me as my bachelor’s final thesis (first-cycle university project) and mentored by Prof. Dr. Jasmin Azemović.**
