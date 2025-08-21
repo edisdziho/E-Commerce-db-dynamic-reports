@@ -26,7 +26,7 @@ This clear layout allows management to identify key revenue sources and leading 
 
 ## Customer list report
 
-![Customer List](reports/images/customers_details.png)
+![Customer List](images/customers_details.png)
 
 The "Customer List" report allows users to filter orders based on multiple parameters:
 
@@ -77,7 +77,7 @@ ORDER BY
 
 ## Best-selling products report
 
-![Best-selling Products](reports/images/graph_products.png)
+![Best-selling Products](images/graph_products.png)
 
 This report provides a graphical overview of the best-selling and least-selling products based on total sales value (in BAM). Users can interactively filter the data to focus on specific categories or sales ranges.
 
@@ -124,7 +124,7 @@ ORDER BY
 ## Products list and product details report
 
 ### Products List
-![Products List](reports/images/products_all.png)
+![Products List](images/products_all.png)
 
 The "Products List" report displays essential information about all products in the system, including:
 
@@ -144,7 +144,7 @@ The "Products List" report displays essential information about all products in 
 - Clicking on any product name opens the **Product Details** report, providing additional insights.
 
 ### Product Details (Drill-through)
-![Product Details](reports/images/products_details.png)
+![Product Details](images/products_details.png)
 
 The **Product Details** report shows detailed information for a single product selected from the Products List:
 
@@ -176,7 +176,7 @@ ORDER BY
 
 ## Sales trend report (monthly)
 
-![Sales Trend](reports/images/trend_filter.png)
+![Sales Trend](images/trend_filter.png)
 
 This report shows the **monthly sales trend** for a selected product category, helping to analyze seasonal fluctuations and purchasing patterns.  
 In the example, the trend is shown for the category "Shoes and Footwear," but the user can select any product category via a dropdown to view its sales performance over time.
