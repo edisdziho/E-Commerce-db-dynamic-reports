@@ -1,6 +1,6 @@
 # E-Trgovina reports
 
-This repository contains visual reports generated for the **Etrgovina** e-commerce database.  
+This repository contains visual reports generated for the  E-commerce database.  
 All reports were created using **SQL Server Reporting Services (SSRS)** and **SQL Server Data Tools (SSDT)**, with data sourced directly from **SQL Server Management Studio (SSMS)** queries.  
 
 The purpose of these reports is to provide clear, actionable insights into key sales indicators, customer behavior, product performance, and trends over time. Each report combines SQL queries with SSRS visuals to give management and analysts a comprehensive overview of the business, with both detailed and summary-level information.
@@ -8,7 +8,7 @@ The purpose of these reports is to provide clear, actionable insights into key s
 ---
 
 ## Key sales indicators – composite dashboard
-![Key Sales Indicators](reports/images/all_graphs.png)
+![Key Sales Indicators](images/all_graphs.png)
 
 This report presents a composite visual composed of four fixed charts, providing an overview of the most important sales indicators without additional filtering. The visual is static and provides a quick insight into the business status.
 
